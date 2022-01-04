@@ -5,7 +5,7 @@ class Character {
   this.hat = '^'; 
   this.hole = '0'; 
   this.fieldCharacter = '░';
-  this.pathCharacter = '*'; ß
+  this.pathCharacter = '*'; 
   }
 }
 
