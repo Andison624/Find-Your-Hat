@@ -142,3 +142,4 @@ const newFieldGame = new FieldGame();
 FieldGame.generateField(8, 8, 0.8, newCharacter, newFieldGame);
 newFieldGame.runGame();
 
+// Andison Edition 2021-01-03 14:28
