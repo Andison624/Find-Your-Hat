@@ -69,13 +69,13 @@ class FieldGame {
     }
   }
   gameMode() {
-    let mode = prompt('Choose your difficulty:normal or difficult? ')
+    let mode = prompt('Choose your difficulty:normal or hard? ')
     if (mode === 'normal') {
       this.hardMode = false;
-    }else if (mode === 'difficult') {
+    }else if (mode === 'hard') {
       this.hardMode = true;
     }else {
-      console.log('Please input normal or difficult!!!')
+      console.log('Please input normal or hard!!!')
       this.gameMode();
     }
   }
