@@ -3,9 +3,9 @@ const prompt = require('prompt-sync')({ sigint: true });
 class Character {
   constructor(){
   this.hat = '^'; 
-  this.hole = 'O'; 
+  this.hole = '0'; 
   this.fieldCharacter = '░';
-  this.pathCharacter = '*'; 
+  this.pathCharacter = '*'; ß
   }
 }
 
@@ -141,3 +141,4 @@ const newCharacter = new Character();
 const newFieldGame = new FieldGame();
 FieldGame.generateField(8, 8, 0.8, newCharacter, newFieldGame);
 newFieldGame.runGame();
+
